@@ -45,9 +45,9 @@ refY2 = [refY1(2), refY1(5)];
 refX3 = [refX1(9), refX1(6)];
 refY3 = [refY1(9), refY1(6)];
 
-
+%generate the image
 axes(ah)
-plot(refX1, refY1, 'k-', 'LineWidth', LW);      % Frame£»
+plot(refX1, refY1, 'k-', 'LineWidth', LW);
 hold on;
 plot(refX2, refY2, 'b-', 'LineWidth', LW);
 plot(refX3, refY3, 'b-', 'LineWidth', LW);
